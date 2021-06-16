@@ -15,30 +15,15 @@ namespace SalespersonDemo
         #region properties
         public int TotalBoxesSold
         {
-            get
-            {
-                return totalBoxesSold;
-            }
-
-            set
-            {
-                totalBoxesSold = value;
-            }
+            get {return totalBoxesSold;}
+            set {totalBoxesSold = value;}
 
         }
 
         public int SaleBS
         {
-            get
-            {
-                return saleBS;
-            }
-
-            set
-            {
-                saleBS = value;
-            }
-
+            get {return saleBS;}
+            set {saleBS = value;}
         }
         #endregion
 
@@ -52,7 +37,8 @@ namespace SalespersonDemo
         public void SalesSpeech()
         {
             WriteLine("\n\n\n---------------Girl Scout Cookie Details-----------------");
-            WriteLine("Thank-you to every one who bought some cookies! See the details below! :)");
+            WriteLine("These cookies are the best in town and you'd be a fool not to\n" +
+             "buy any!");
         }
 
         public int MakeSale(int sale)
@@ -65,8 +51,8 @@ namespace SalespersonDemo
         {
             int combinedTotalBoxesSold = saleBS + totalBoxesSold;
 
-            WriteLine($"\nThe salepersons first name is: {fName}\n" +
-                        $"The saleperson last name is: {lName}\n" +
+            WriteLine($"\nSalepersons first name is: {fName}\n" +
+                        $"Salepersons last name is: {lName}\n" +
                         $"Number of boxes sold today: {saleBS}\n" +
                         $"Total number of all boxes sold: {combinedTotalBoxesSold}" 
                         

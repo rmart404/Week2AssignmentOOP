@@ -15,27 +15,15 @@ namespace SalespersonDemo
         #region Properties
         public string FName
         {
-            get
-            {
-                return fName; 
-            }
-            set
-            {
-                fName = value;
-            }
+            get {return fName; }
+            set {fName = value;}
         
         }
 
         public string LName
         {
-            get
-            {
-                return lName;
-            }
-            set
-            {
-                lName = value;
-            }
+            get {return lName;}
+            set {lName = value;}
 
         }
         #endregion end Properties

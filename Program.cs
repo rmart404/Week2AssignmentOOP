@@ -13,26 +13,26 @@ namespace SalespersonDemo
         {
             #region RealEstateSalesperson
             RealEstateSalesperson houseCost = new RealEstateSalesperson(0,0,0,"","");
-            int house1 = houseCost.MakeSale(435000);
-            int house2 = houseCost.MakeSale(596010);
-            int house3 = houseCost.MakeSale(387300);
+            int house1 = houseCost.MakeSale(405000);
+            int house2 = houseCost.MakeSale(500600);
+            int house3 = houseCost.MakeSale(407000);
 
             RealEstateSalesperson sP1 = new RealEstateSalesperson(4650000, .005, house1, 
-                                                                 "Doc", "Holiday"
+                                                                 "John", "Doh"
                                                                  );
             sP1.SalesSpeech();
             sP1.SalesPersonInfo();
 
 
             RealEstateSalesperson sP2 = new RealEstateSalesperson(5000000+house1, .025, house2, 
-                                                                  "Doc", "Holiday"
+                                                                  "John", "Doh"
                                                                   );
             
             sP2.SalesPersonInfo();
 
 
             RealEstateSalesperson sP3 = new RealEstateSalesperson(5000000+house2+house3, 
-                                                                  .05, house1, "Doc", "Holiday"
+                                                                  .05, house1, "John", "Doh"
                                                                   );
             
             sP3.SalesPersonInfo();
@@ -40,23 +40,23 @@ namespace SalespersonDemo
 
             #region GirlScout
             GirlScout girlScout = new GirlScout(0, 0, "", "");
-            int box1 = girlScout.MakeSale(34);
-            int box2 = girlScout.MakeSale(65);
-            int box3 = girlScout.MakeSale(14);
+            int box1 = girlScout.MakeSale(43);
+            int box2 = girlScout.MakeSale(76);
+            int box3 = girlScout.MakeSale(24);
 
             GirlScout b1 = new GirlScout(50, box1,
-                                         "Matilda", "Wormwood"
+                                         "Jane", "Doe"
                                          );
             b1.SalesSpeech();
             b1.SalesPersonInfo();
 
             GirlScout b2 = new GirlScout(50 + box1, box2,
-                                         "Matilda", "Wormwood"
+                                         "Jane", "Doe"
                                          );
             b2.SalesPersonInfo();
 
             GirlScout b3 = new GirlScout(50 + box1 + box2, box3,
-                                         "Matilda", "Wormwood"
+                                         "Jane", "Doe"
                                          );
             b3.SalesPersonInfo();
             #endregion

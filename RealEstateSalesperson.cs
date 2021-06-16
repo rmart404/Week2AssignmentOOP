@@ -17,52 +17,28 @@ namespace SalespersonDemo
         #region properties 
         public int TotalHouseCost
         {
-            get
-            {
-                return houseCost;
-            }
-            set
-            {
-                houseCost = value;
-            }
+            get {return houseCost;}
+            set {houseCost = value;}
         }
         
         public int TotalValueSold
         {
-            get
-            {
-                return totalValueSold;
-            }
-            set
-            {
-                totalValueSold = value;
-            }
+            get {return totalValueSold;}
+            set {totalValueSold = value;}
 
         }
 
         public double TotalComm
         {
-            get
-            {
-                return totalComm;
-            }
-            set
-            {
-                totalComm = value;
-            }
+            get {return totalComm;}
+            set {totalComm = value;}
 
         }
 
         public double CommRate
         {
-            get
-            {
-                return commRate;
-            }
-            set
-            {
-                commRate = value;
-            }
+            get {return commRate;}
+            set {commRate = value;}
 
         }
         #endregion end properties
@@ -80,8 +56,8 @@ namespace SalespersonDemo
         public void SalesSpeech() 
         {
             WriteLine("---------------Sales Person Details-----------------");
-            WriteLine("I'm the fastest draw in the west, buy this daring little home won't you kind sir!\n" +
-                      "My friend Wyatt and I insist so! ");
+            WriteLine("These cars are so fast and up to date you'll need Doc\n" +
+                      "Brown to bring you back to the future to own one!");
 
         }
 

@@ -1,0 +1,16 @@
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\Salesperson.exe
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\Salesperson.deps.json
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\Salesperson.runtimeconfig.json
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\Salesperson.runtimeconfig.dev.json
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\Salesperson.dll
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\ref\Salesperson.dll
+C:\Users\Ray\Projects\Salesperson\Salesperson\bin\Debug\net5.0\Salesperson.pdb
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.csproj.AssemblyReference.cache
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.AssemblyInfoInputs.cache
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.AssemblyInfo.cs
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.csproj.CoreCompileInputs.cache
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.dll
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\ref\Salesperson.dll
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.pdb
+C:\Users\Ray\Projects\Salesperson\Salesperson\obj\Debug\net5.0\Salesperson.genruntimeconfig.cache
