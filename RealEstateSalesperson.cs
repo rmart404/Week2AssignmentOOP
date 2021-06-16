@@ -76,8 +76,7 @@ namespace SalespersonDemo
             totalComm = totalHouseValue * commRate; 
 
 
-            WriteLine($"\nSalepersons first name: {fName}\n" +
-                        $"Salepersons last name: {lName}\n" +
+            WriteLine($"\nSalepersons first name: {fName} {lName}\n" +
                         $"Market Prize of home sold: ${houseCost}\n" +
                         $"The total value of all homes sold this quater: ${totalHouseValue}\n" +
                         $"Total commission for all homes sold this quater is: ${totalComm}\n"

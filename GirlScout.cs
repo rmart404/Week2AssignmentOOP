@@ -38,7 +38,7 @@ namespace SalespersonDemo
         {
             WriteLine("\n\n\n---------------Girl Scout Cookie Details-----------------");
             WriteLine("These cookies are the best in town and you'd be a fool not to\n" +
-             "buy any!");
+             "buy any from Jane Doe!");
         }
 
         public int MakeSale(int sale)
@@ -51,8 +51,7 @@ namespace SalespersonDemo
         {
             int combinedTotalBoxesSold = saleBS + totalBoxesSold;
 
-            WriteLine($"\nSalepersons first name is: {fName}\n" +
-                        $"Salepersons last name is: {lName}\n" +
+            WriteLine($"\nSalepersons name is: {fName} {lName}\n" +
                         $"Number of boxes sold today: {saleBS}\n" +
                         $"Total number of all boxes sold: {combinedTotalBoxesSold}" 
                         
